@@ -92,8 +92,6 @@ class PersonController {
     person.merge(data);
 
     await person.save();
-
-    return person;
   }
 
   /**
